@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main {
+  display: flex;
+}
+
+#main-left {
+  width: 200px;
+  border: solid 1px blue;
+}
+
+#main-right {
+  border: solid 1px red;
+}
+
+.autoMargin {
+  border: solid 1px purple;
+  margin: 0 auto;
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.spaceBetween {
+  padding: 5px;
+  border: solid 1 px crimson;
+}
